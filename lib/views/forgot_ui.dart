@@ -10,7 +10,9 @@ class ForgotUI extends StatefulWidget {
 class _ForgotUIState extends State<ForgotUI> {
   @override
   Widget build(BuildContext context) {
-    return const Scaffold();
+    return  Scaffold(
+      backgroundColor: Colors.blue,
+    );
   }
 }
 
